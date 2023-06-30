@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "http://localhost:25495",
+    baseURL: "https://soccerlens-backend.onrender.com",
     headers: {
         "Content-type": "application/json"
     }
